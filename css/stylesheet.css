@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Roboto+Mono&display=swap');
+
+body {
+    max-width: 1200px; 
+    background-color: aliceblue;
+} 
+
+header {
+    width: 400px; 
+    position: fixed;
+    top: 5px; 
+    left: 75px; 
+    font-family: 'Handjet', cursive;
+    font-size: 40px;
+    text-shadow: 5px 4px black;
+}
+
+a {
+    color:palevioletred;
+    text-decoration: none;
+}
+
+nav {
+    width: 400px;
+    position: fixed;
+    top: 350px;
+    left: 75px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+} 
+
+main {
+    width: 650px;
+    margin-left: 500px;
+    font-family: 'Roboto Mono', monospace;
+} 
+
+section { 
+    margin-top: 25px;
+    padding: 25px; 
+    border: solid 10px black;
+    border-width: 3px 10px 12px 4px;
+    background-color: palevioletred;
+}
+
+section img {
+    display: block;
+    margin: auto;
+}
+
+section p {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+    width: 400px; 
+    position: fixed; 
+    bottom: 25px; 
+    left: 50px; 
+    font-family: 'Roboto Mono', monospace;
+    background-color: palevioletred;
+    border: solid 10px black; 
+    border-width: 3px 10px 12px 4px;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 25px;
+}
