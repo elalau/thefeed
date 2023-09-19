@@ -15,11 +15,6 @@ header {
     text-shadow: 5px 4px black;
 }
 
-a {
-    color:palevioletred;
-    text-decoration: none;
-}
-
 nav {
     width: 400px;
     position: fixed;
@@ -28,6 +23,11 @@ nav {
     font-family: 'Roboto Mono', monospace;
     color: black;
 } 
+
+a {
+    color:palevioletred;
+    text-decoration: none;
+}
 
 main {
     width: 650px;
@@ -68,3 +68,9 @@ footer p {
     text-align: left;
     margin-left: 25px;
 }
+
+#special {
+   text-align: center;
+   margin:auto;
+   margin-top: 20%;
+}   
