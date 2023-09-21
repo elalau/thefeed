@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Roboto+Mono&display=swap');
 
 body {
-    max-width: 1000px; 
-    background-image: ("img/wallpaperhome.jpg");
+    background-image: 
+    url("../img/wallpaperhome.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
-    background-color: aliceblue;
+    margin:0;
 } 
+
+.splash_bg {
+    background-image: 
+    url("../img/splashwallpp.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
 
 header {
     width: 400px; 
@@ -82,10 +92,10 @@ footer p {
     margin-left: 25px;
 }
 
-#special {
-   text-align: center;
-   margin:auto;
-   margin-top: 20%;
+.special {
+  position: relative;
+  top: 325px;
+  left: 400px;
 }   
 
 nav {
