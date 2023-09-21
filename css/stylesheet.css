@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     margin:0;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='45%'>🥕</text></svg>") 16 0,auto; /*!emojicursor.app*/
 } 
 
 .splash_bg {
@@ -72,7 +73,7 @@ section img {
 }
 
 section p {
-    text-align: center;
+    text-align:justify;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -101,3 +102,4 @@ footer p {
 nav {
     overflow:scroll;
 }
+
