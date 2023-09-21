@@ -1,32 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Roboto+Mono&display=swap');
 
 body {
-    max-width: 1200px; 
-    background-color: pink;
+    max-width: 1000px; 
+    background-image: ("img/wallpaperhome.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: aliceblue;
 } 
 
 header {
     width: 400px; 
     position: fixed;
-    top: 5px; 
+    top: 15px; 
     left: 75px; 
     font-family: 'Handjet', cursive;
     font-size: 40px;
     text-shadow: 5px 4px black;
-}
+} 
 
 nav {
-    width: 400px;
+    width: 300px;
     position: fixed;
     top: 400px;
     left: 75px;
+    bottom: 20px;
     font-family: 'Roboto Mono', monospace;
     color: black;
+    border: solid 10px black;
+    border-width: 3px 10px 12px 4px;
+    padding-left: 25px;
+    background-color: pink;
+    overflow: scroll;
 } 
 
 a {
-    color:palevioletred;
+    color:black;
     text-decoration: none;
+}
+
+.emphasis {
+    color:pink;
 }
 
 main {
@@ -40,7 +53,7 @@ section {
     padding: 25px; 
     border: solid 10px black;
     border-width: 3px 10px 12px 4px;
-    background-color: palevioletred;
+    background-color: pink;
 }
 
 section img {
@@ -74,3 +87,7 @@ footer p {
    margin:auto;
    margin-top: 20%;
 }   
+
+nav {
+    overflow:scroll;
+}
