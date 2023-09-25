@@ -46,7 +46,7 @@ nav {
 
 a {
     color:black;
-    text-decoration: ;
+    text-decoration:;
 }
 
 .emphasis {
@@ -55,16 +55,16 @@ a {
 
 main {
     width: 650px;
-    margin-left: 500px;
+    margin-left: 600px;
     font-family: 'Roboto Mono', monospace;
 } 
 
 section { 
     margin-top: 25px;
     padding: 25px; 
-    border: solid 10px black;
+    border: solid 10px silver;
     border-width: 3px 10px 12px 4px;
-    background-color: pink;
+    background-color: whitesmoke;
 }
 
 section img {
