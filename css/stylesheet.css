@@ -52,7 +52,6 @@ nav {
 
 a {
     color:black;
-    text-decoration:;
 }
 
 .emphasis {
@@ -77,12 +76,10 @@ section {
     margin-left: 175px;
 }
 
-.music p {
-    position: relative
-}
-
 video {
-    margin-left: 150px;
+    margin-left: 130px;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 
 section p {
