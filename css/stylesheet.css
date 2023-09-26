@@ -36,7 +36,7 @@ h1 {
 
 
 nav {
-    width: 325px;
+    width: 375px;
     position: fixed;
     top: 325px;
     left: 75px;
@@ -76,6 +76,10 @@ section {
 section img {
     display: block;
     margin: auto;
+}
+
+video {
+    margin-left: 50px;
 }
 
 section p {
