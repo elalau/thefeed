@@ -73,10 +73,17 @@ section {
     background-color: pink;
 }
 
+.music audio {
+    margin-left: 175px;
+}
+
+.music p {
+    position: relative
+}
+
 video {
     margin-left: 150px;
 }
-
 
 section p {
     text-align:justify;
