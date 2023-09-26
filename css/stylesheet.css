@@ -60,7 +60,7 @@ a {
 }
 
 main {
-    width: 650px;
+    width: 750px;
     margin-left: 600px;
     font-family: 'Roboto Mono', monospace;
 } 
@@ -73,14 +73,10 @@ section {
     background-color: pink;
 }
 
-section img {
-    display: block;
-    margin: auto;
+video {
+    margin-left: 150px;
 }
 
-video {
-    margin-left: 50px;
-}
 
 section p {
     text-align:justify;
